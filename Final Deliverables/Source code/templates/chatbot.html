@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI ChatBot Discourse For Banking</title>
+    <!-- Css Link -->
+    <link rel="stylesheet" href="../static/css/chatbot.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../static/images/favicon_io (1)/android-chrome-512x512.png" type="image/x-icon">
+    <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+		    <a href="Project.html" class="logo"><img src="../static/images/robot.png" alt="robot" /></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Other Services</a></li>
+                <li><a href="#">Apply Loan</a></li>
+            </ul>
+            <div class="searchbox">
+                    <input type="text" name="search" placeholder="Search" />
+                    <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </header>
+        <div class="content">
+            <h3>This Project is about AI ChatBot Discourse <br>for Banking Industry</h3>
+            <a href="login.html"><button class="btn">LogIn</button></a>
+            <a href="register.html"><button class="btn">Register</button></a>
+        </div>
+        <div class="teamid">
+          <h6>TEAM ID: PNT2022TMID42870</h6>
+          <h6>TEAM MEMBERS:</h6>
+          <p>SABARINATHAN R [TL] - 712219205030 </p>
+          <p>IRUTHAYA VENISH DURAI S [TM1] - 712219205014</p>
+          <p>RANGESH S [TM2] - 712219205028</p>
+          <p>SIVASANKAR R [TM3] - 712219205034</p>
+        </div>
+    </div>
+<script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "8686d2f5-c1b5-4d84-8f76-2aa019b3a056", // The ID of this integration.
+    region: "au-syd", // The region your integration is hosted in.
+    serviceInstanceID: "998f30c7-0d37-42fc-bd14-56099a2ba361", // The ID of your service instance.
+    onLoad: function(instance) { instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+</body>
+</html>
